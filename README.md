@@ -22,7 +22,7 @@ API de gerenciamento de propostas de crédito desenvolvida em .NET 8 com arquite
 ### 1. Clonar repositório
 
 ```bash
-git clone <seu-repositorio>
+ggit clone https://github.com/antunesfelipe/myde-backend.git
 cd myde-backend
 ```
 
@@ -191,28 +191,15 @@ dotnet test
 
 ## 📝 Decisões Técnicas
 
-### Por que .NET ao invés de Python?
 
-Conforme solicitado pela equipe Myde para este desafio.
+Conforme solicitado pela equipe Myde foi usado .net para este desafio.
 
 ### Gaps conhecidos
 
 - Primeira experiência adaptando arquitetura Python para .NET
 - Código reflete aprendizado intensivo focado em funcionalidade
 
-### O que priorizei
 
-1. ✅ Funcionalidade completa
-2. ✅ Arquitetura modular (separação de responsabilidades)
-3. ✅ Multi-tenancy funcionando
-4. ✅ Autenticação JWT
-5. ✅ Fluxo assíncrono (SQS)
-
-### O que ficou básico (limitação de tempo)
-
-- Testes: mínimo obrigatório
-- Logs: básicos (não estruturados)
-- Validações: simplificadas
 
 ## 👤 Autor
 
